@@ -22,8 +22,8 @@ class ApplicationController < Sinatra::Base
 	   redirect "/login"
     else
 	   redirect "/failure"
- end
-	end
+    end
+	 end
 
 	get "/login" do
 		erb :login
